@@ -83,6 +83,5 @@ namespace AutomationFramework.Tests
 
             Assert.Pass(); // Instruction for Breakpoint
         }
-
     }
 }

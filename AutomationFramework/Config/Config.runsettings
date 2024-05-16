@@ -6,7 +6,7 @@
         <Parameter name ="WaitElementtimeOut" value="80"/>
         <Parameter name ="ScreenShotPath" value="/Screenshots"/>
         <Parameter name ="LogsPath" value="/Logs/Logs.txt"/>
-        <Parameter name ="ApplicationUrl" value="https://www.epam.com/"/>
+        <Parameter name ="ApplicationUrl" value="https://cloud.google.com/"/>
         <Parameter name ="TestDataFolder" value="/TestFiles"/>
     </TestRunParameters>
     

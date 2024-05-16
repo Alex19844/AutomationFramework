@@ -23,8 +23,8 @@ public abstract class BaseTest
     {
         Logger.Info("Test has begun");
         BrowserFactory.Browser.Maximize();
-        BrowserFactory.Browser.GoToUrl("https://cloud.google.com");
-        //BrowserFactory.Browser.GoToUrl(TestSettings.ApplicationUrl);
+        //BrowserFactory.Browser.GoToUrl("https://cloud.google.com");
+        BrowserFactory.Browser.GoToUrl(TestSettings.ApplicationUrl);
         Waiters.WaitForPageLoad();
         action = new Actions(BrowserFactory.Browser.Driver);
     }
